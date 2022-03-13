@@ -4,7 +4,7 @@ Using `espeak` here is arbitrary, it could be any "long" process. For example: i
 
 ![ss1](doc/ss1.PNG)
 
-There's a lot of documentation for each of the components used here, but I couldn't find a practical example so I figured I'd make one. Needless to say this is just a development example so don't assume the deployment strategy is production-ready.
+There's a lot of documentation for each of the components used here, but I couldn't find a practical example/application so I figured I'd make one. Needless to say this is just a development example so don't assume the deployment strategy is production-ready.
 
 ## Installation
 ```
