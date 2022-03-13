@@ -1,4 +1,4 @@
-An practical example using [Django](https://www.djangoproject.com/) with [django-rq](https://github.com/rq/django-rq) to show results of a long running process. In this case, it runs `espeak` (text-to-speech) from an input field, then outputs the sound file as an mp3 (embedded audio) in the web interface.
+An practical example using [Django](https://www.djangoproject.com/) with [django-rq](https://github.com/rq/django-rq) to show results of a long running process. In this case, it runs [espeak](http://espeak.sourceforge.net/) (text-to-speech) from an input field, then outputs the sound file as an mp3 (embedded audio) in the web interface.
 
 Using `espeak` here is arbitrary, it could be any "long" process. For example: image processing, video conversion, batch processing, etc.
 
