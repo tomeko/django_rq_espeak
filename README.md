@@ -2,7 +2,7 @@ An practical example using [Django](https://www.djangoproject.com/) with [django
 
 Using `espeak` here is arbitrary, it could be any "long" process. For example: image processing, video conversion, batch processing, etc.
 
-![ss1](doc/ss1.png)
+![ss1](doc/ss1.PNG)
 
 There's a lot of documentation for each of the components used here, but I couldn't find a practical example so I figured I'd make one. Needless to say this is just a development example so don't assume the deployment strategy is production-ready.
 
