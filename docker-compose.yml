@@ -1,0 +1,23 @@
+version: "3.7"
+   
+services:
+  redis:
+    image: redis
+    command: redis-server --requirepass derp
+    expose:
+      - "6379"
+  rq:
+    build: .
+    command: python manage.py rqworker default
+    volumes:
+      - ./django_rq_espeak/:/django_rq_espeak
+    links:
+      - redis
+
+  web:
+    build: .
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - ./django_rq_espeak/:/django_rq_espeak
+    ports:
+      - "7777:8000"
